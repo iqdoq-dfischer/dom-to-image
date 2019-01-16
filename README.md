@@ -13,8 +13,11 @@ features (like web font and image support) added.
 **This is a fork** of the original [dom-to-image repo of tsayen](https://github.com/tsayen/dom-to-image).
 This fork contains the following enhancements and fixes:
 * [feature] Add _useCredentials_ option to send authentication credentials for CORS HTTP requests to external (image, font, etc.) URIs that need (existing) authentication data sent with the HTTP request. ([#255][i255])
+* [feature] Add scale factor option for png and jpeg output. ([#69][i69], [#172][p172]) 
 
 [i255]: https://github.com/tsayen/dom-to-image/issues/255
+[i69]: https://github.com/tsayen/dom-to-image/issues/69
+[p172]: https://github.com/tsayen/dom-to-image/pull/172
 
 ## Installation
 
